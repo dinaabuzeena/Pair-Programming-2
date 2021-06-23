@@ -1,0 +1,49 @@
+/*------------------------- Header  -------------------------*/  
+header #websiteTitle{
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 15px;
+}
+/*------------------------- Introduction Message  -------------------------*/  
+    #Message{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #aboutMe h1,#Questionnaire h1,#top10Python h1, #guessGame h1{
+        font-size: 45px;
+        font-weight:bold;
+        font-family: Tahoma;
+        text-align: center;
+    }
+
+    #aboutMe ul{    
+        text-align: left;
+        list-style: square;
+        margin-left: 25px;
+    }
+    #top10Python ol{
+        text-align: left;
+        list-style:decimal;
+        margin-left: 25px;
+    }
+    #aboutMe,#Questionnaire, #top10Python, #guessGame {
+        font-size: 20px;
+        font-family: Tahoma;
+        display: block;
+        width: 800px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        border:3px; 
+        border-style:solid; 
+        border-color:black;
+        list-style: square;
+    }
+#score{
+    font-size:35px;
+    text-align: center;
+    
+}
